@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="user@192.168.96.123:22" type="ssh/sftp" uuid="ededbd93-b7c7-475e-abaf-8b96e9d46d34">
+        <config>
+          <option name="projectRootOnTarget" value="/home/user/untitled1" />
+          <option name="serverName" value="user@192.168.12.123:22 password" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/lib/jvm/java-1.17.0-openjdk-armhf" />
+            <option name="javaVersionString" value="17.0.6" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
